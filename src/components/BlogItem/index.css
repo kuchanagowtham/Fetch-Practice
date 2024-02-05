@@ -1,0 +1,64 @@
+.cover-img {
+  height: 200px;
+  width: 270px;
+  margin-right: 30px;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.avathar-img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0px;
+}
+.heading {
+  font-size: 20px;
+  margin-top: 4px;
+  margin-bottom: 5px;
+  font-family: 'Roboto';
+}
+.li-container {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #d3d3d3;
+  border-width: 2px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-right: 30px;
+
+  border-radius: 10px;
+}
+.topic {
+  margin-bottom: 5px;
+  color: #8e8e8e;
+}
+.author {
+  color: #8e8e8e;
+}
+
+@media screen and (max-width: 767px) {
+  .li-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .text-container {
+    margin-left: 30px;
+  }
+}
+.link-con {
+  text-decoration: none;
+}

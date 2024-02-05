@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+.auatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.author-container {
+  display: flex;
+}
+.img-logo {
+  height: 300px;
+  width: 600px;
+  border-radius: 10px;
+}
+.blog-bg {
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .img-logo {
+    height: 200px;
+    width: 350px;
+  }
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
